@@ -5,7 +5,7 @@ job ('nodejs-application') {
      }
  }
  
- nodejs(nodeJSInstallationName: 'nodejs15.2.1') {
+ nodejs('nodejs15.2.1') {
         sh 'npm install'
     }
  
