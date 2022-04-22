@@ -5,21 +5,21 @@ job ('nodejs-application') {
      }
  }
  
- nodejs('nodejs15.2.1') {
+ nodejs{
         sh 'npm install'
     }
  
-     nodejs(nodeJSInstallationName: 'nodejs15.2.1') {
+     //nodeJSInstallationName: 'nodejs15.2.1' {
         sh 'npm run sonar'
     }
 		
-       nodejs(nodeJSInstallationName: 'nodejs15.2.1') {
+       nodejs{
           sh 'npm publish'
       }	
  
  {
  //sh "./scripts/run.sh"
- nodejs(nodeJSInstallationName: 'nodejs15.2.1') {
+ nodejs{
         sh 'npm start &'
     }
 }    
