@@ -1,9 +1,9 @@
-node
+Job(nodejs-application)
 {
  
   stage("CheckOutCodeGit")
   {
-   git branch: 'master', credentialsId: '65fb834f-a83b-4fe7-8e11-686245c47a65', url: 'https://github.com/bhaskar0504/node-js-application.git'
+   git branch: 'master', credentialsId: 'a79a36f0-f842-47c9-a448-0d34f39ae9f7', url: 'https://github.com/bhaskar0504/node-js-application.git'
  }
  
  stage("Build")
