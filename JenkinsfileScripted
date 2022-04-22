@@ -1,4 +1,4 @@
-node
+job ('nodejs-application')
 {
  
   stage("CheckOutCodeGit")
