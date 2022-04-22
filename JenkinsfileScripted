@@ -1,9 +1,9 @@
 job ('nodejs-application') {
 
   scm {
-  https://github.com/Sylvie77/nodejs-application/edit/hotfix/JenkinsfileScripted
+  https://github.com/Sylvie77/nodejs-application/edit/hotfix/JenkinsfileScripte
+   }
  }
- 
  stage("Build")
  {
  nodejs(nodeJSInstallationName: 'nodejs15.2.1') {
@@ -33,4 +33,3 @@ job ('nodejs-application') {
     }
 }    
     
-}
