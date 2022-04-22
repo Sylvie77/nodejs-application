@@ -8,12 +8,8 @@ job ('nodejs-application') {
  nodejs{
         sh 'npm install'
     }
- 
-     //nodeJSInstallationName: 'nodejs15.2.1' {
-        sh 'npm run sonar'
-    }
 		
-       nodejs{
+  nodejs{
           sh 'npm publish'
       }	
  
