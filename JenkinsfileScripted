@@ -1,8 +1,8 @@
 job ('nodejs-application') {
 
   scm {
-  https://github.com/Sylvie77/nodejs-application/edit/hotfix/JenkinsfileScripte
-   }
+  'https://github.com/Sylvie77/nodejs-application/edit/hotfix/JenkinsfileScripte'
+     }
  }
  stage("Build")
  {
