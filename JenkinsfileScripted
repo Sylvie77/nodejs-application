@@ -1,7 +1,7 @@
 job ('nodejs-application') {
 
   scm {
-   git(credentialsId: 'a79a36f0-f842-47c9-a448-0d34f39ae9f7', url: 'https://github.com/Sylvie77/nodejs-application.git')
+   git( credentialsId: 'a79a36f0-f842-47c9-a448-0d34f39ae9f7'), git( url: 'https://github.com/Sylvie77/nodejs-application.git')
  }
  
  stage("Build")
