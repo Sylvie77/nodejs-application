@@ -5,7 +5,7 @@ job ('nodejs-application') {
      }
  }
  
- JenkinsfileScripted.steps{
+ steps ('install-nodejs){
         shell ("npm install")
     }
 		
